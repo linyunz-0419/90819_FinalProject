@@ -48,14 +48,22 @@ The main variables used in this project are listed below.
 
 | Variable | Description | Use in This Project |
 |----------|-------------|---------------------|
+| `YEAR` | Data year | Identifies whether the observation comes from 2020, 2021, 2022, 2023, or 2024; extracted from the first four digits of `SERIALNO` |
 | `AGEP` | Age | Used to restrict the sample to adults aged 25–64 and as a control variable |
 | `SCHL` | Educational attainment | Main explanatory variable measuring level of education |
 | `ESR` | Employment status recode | Used to identify labor-force status and unemployment |
 | `SEX` | Sex | Used as a demographic control variable |
 | `RAC1P` | Recoded detailed race code | Used as a demographic control or descriptive variable |
 | `PWGTP` | Person's weight | Used to produce population-representative weighted estimates |
-
 ### Variable Details
+
+#### YEAR — Data Year
+
+`YEAR` identifies the year associated with each observation in the 2020–2024 ACS 5-Year PUMS dataset.
+
+The variable is created from the first four digits of `SERIALNO`. It takes values from **2020 to 2024**.
+
+In this project, `YEAR` is used to distinguish observations across years and can be used to examine changes in unemployment over time.
 
 #### AGEP — Age
 
