@@ -117,7 +117,7 @@ https://www.census.gov/programs-surveys/acs/microdata/documentation/2024.html
 
 2020–2024 ACS 5-Year PUMS Data Dictionary:
 
-https://www2.census.gov/programs-surveys/acs/tech_docs/pums/data_dict/
+https://www2.census.gov/programs-surveys/acs/tech_docs/pums/data_dict/PUMS_Data_Dictionary_2020-2024.pdf
 
 The Census Bureau data dictionary provides the official definitions and coding schemes for variables including `AGEP`, `SCHL`, `ESR`, `SEX`, `RAC1P`, and `PWGTP`.
 
