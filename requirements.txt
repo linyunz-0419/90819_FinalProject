@@ -1,0 +1,8 @@
+# Analysis versions used for verification with Python 3.12.
+pandas==2.2.3
+numpy==2.3.5
+matplotlib==3.10.8
+statsmodels==0.15.0
+scikit-learn==1.8.0
+# Notebook interface; not used in the Python-process verification run.
+notebook
